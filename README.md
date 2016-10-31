@@ -34,6 +34,12 @@ relevant module.
 larger than `populationSize`. If any of these conditions are violated, an error
 will be thrown. Something like [`unassertify`](https://github.com/twada/unassertify)
 
+## Install
+
+```sh
+npm install secure-shuffle
+```
+
 ## Related
 
 * [`secure-random-uniform`](https://github.com/emilbayes/secure-random-uniform): Generate secure, random, uniform integers, compensating for modulo bias
