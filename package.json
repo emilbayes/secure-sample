@@ -1,0 +1,32 @@
+{
+  "name": "secure-sample",
+  "version": "1.0.0",
+  "description": "Secure, sequential (n, N) sampling",
+  "main": "index.js",
+  "dependencies": {
+    "secure-random-uniform": "^1.0.1"
+  },
+  "devDependencies": {
+    "tape": "^4.6.2"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilbayes/secure-sample.git"
+  },
+  "keywords": [
+    "secure",
+    "crypto",
+    "sample",
+    "sequential",
+    "knuth"
+  ],
+  "author": "Emil Bay <github@tixz.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilbayes/secure-sample/issues"
+  },
+  "homepage": "https://github.com/emilbayes/secure-sample#readme"
+}
