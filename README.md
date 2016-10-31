@@ -1,6 +1,6 @@
 # `secure-sample`
 
-> Secure, sequential (n, N) sampling
+> Secure, sequential (n, N) sampling without replacement
 
 ## Usage
 
@@ -25,7 +25,7 @@ shuffle(sample(3, 10)) // [6, 2, 8]
 
 ### `secureSample(sampleSize, populationSize)`
 
-Will return an array with `sampleSize` number of samples from the uniform
+Will return an array with `sampleSize` number of unique samples from the uniform
 distribution `[0, populationSize)` (`populationSize` exclusive). The samples
 will be sequential, so you may want to shuffle them. See [Related](#related) for
 relevant module.

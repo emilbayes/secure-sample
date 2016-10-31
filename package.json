@@ -1,7 +1,7 @@
 {
   "name": "secure-sample",
   "version": "1.0.1",
-  "description": "Secure, sequential (n, N) sampling",
+  "description": "Secure, sequential (n, N) sampling without replacement",
   "main": "index.js",
   "dependencies": {
     "secure-random-uniform": "^1.0.1"
