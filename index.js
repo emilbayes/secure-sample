@@ -1,6 +1,6 @@
 'use strict'
 
-var assert = require('assert')
+var assert = require('nanoassert')
 var uniform = require('secure-random-uniform')
 
 module.exports = function (sampleSize, populationSize) {
@@ -15,7 +15,7 @@ module.exports = function (sampleSize, populationSize) {
 
   var rand
   while (samplesTaken < sampleSize) {
-    rand = uniform(populationSize - candidate)()
+    rand = uniform(populationSize - candidate)
 
     if (rand >= sampleSize - samplesTaken) {
       candidate++
