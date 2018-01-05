@@ -1,6 +1,6 @@
 {
   "name": "secure-sample",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Secure, sequential (n, N) sampling without replacement",
   "main": "index.js",
   "dependencies": {
