@@ -4,9 +4,9 @@ var assert = require('nanoassert')
 var uniform = require('secure-random-uniform')
 
 module.exports = function (sampleSize, populationSize) {
-  assert.ok(Number.isSafeInteger(sampleSize), 'sampleSize must be safe integer')
-  assert.ok(Number.isSafeInteger(populationSize), 'populationSize must be safe integer')
-  assert.ok(sampleSize <= populationSize, 'sampleSize can not be larger than populationSize')
+  assert(Number.isSafeInteger(sampleSize), 'sampleSize must be safe integer')
+  assert(Number.isSafeInteger(populationSize), 'populationSize must be safe integer')
+  assert(sampleSize <= populationSize, 'sampleSize can not be larger than populationSize')
 
   var samples = []
 
